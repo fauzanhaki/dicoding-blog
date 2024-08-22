@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -19,7 +20,6 @@ body {
 
 /*
  * Header
- *
  */
 
 .header {
@@ -80,7 +80,6 @@ body {
   color: #000;
 }
 
-
 /*
  * Jumbotron
  */
@@ -91,7 +90,7 @@ body {
   min-height: 380px;
   width: 100%;
   text-align: center;
-  background-image: url("../images/hero.jpg");
+  background-image: url("../public/images/hero.jpg");
   background-position: center;
   background-color: green;
 }
@@ -113,7 +112,6 @@ body {
   font-size: 18px;
   font-weight: 300;
 }
-
 
 /*
  * main
@@ -200,7 +198,7 @@ main {
 }
 
 .latest__label::after {
-  content: '';
+  content: "";
   margin-top: 16px;
   display: block;
   border-bottom: 1px solid #eeeeee;
@@ -220,7 +218,6 @@ main {
  */
 
 .post-item {
-  margin: 16px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   border-radius: 5px;
@@ -294,5 +291,5 @@ footer a {
   display: inline-block;
   padding: 1.3em;
   text-decoration: none;
-  color: #fff
+  color: #fff;
 }
